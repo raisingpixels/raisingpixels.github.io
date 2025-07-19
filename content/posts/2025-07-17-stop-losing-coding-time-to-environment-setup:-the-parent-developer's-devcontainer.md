@@ -230,6 +230,8 @@ Here’s my battle-tested `.devcontainer/devcontainer.json` that I use across al
 
 You can also clone the ready-to-use [Parent Developer Devcontainer Template](https://github.com/raisingpixels/parent-dev-devcontainer) repository to get started quickly.
 
+For an easy way to set up authentication for GitHub, run `gh auth login` in the container terminal.
+
 ## Adding Bash Aliases (Optional Enhancement)
 
 Once you have the basic container working, you can add custom aliases to make your workflow even faster. Create `.devcontainer/bashrc`:
