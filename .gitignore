@@ -89,3 +89,6 @@ exampleSite/resources/
 
 # Drafts folder
 drafts/
+
+# AI generated files
+.claude

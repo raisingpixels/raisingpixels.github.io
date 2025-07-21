@@ -4,8 +4,10 @@ date: "2025-07-04T21:16:50-05:00"
 draft: false
 subtitle: ""
 description: "Traditional productivity advice doesn’t work when you code in 12-minute windows between diaper changes and playtime. Here’s what actually does."
-categories: ["Parenting with Systems", "Developer Productivity"]
-tags: ["productivity", "parenting", "workflow", "systems", "time-management"]
+categories: ["Parenting with Systems Thinking", "Developer Productivity"]
+tags: ["parent-developers", "productivity", "time-management", "workflow", "systems-thinking"]
+aliases:
+  - /coding-with-constant-interruptions-a-parents-survival-guide/
 ---
 
 It’s 11:47 PM. You finally have both hands free and a quiet house. You open your laptop, fire up VSCode, and stare at the code you were working on… yesterday? Last week? The comments you left for yourself now read like cryptic notes from a stranger: "TODO: fix."

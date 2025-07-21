@@ -1,10 +1,12 @@
 ---
-title: "Stop Losing Coding Time to Environment Set Up: The Parent Developer's Devcontainer"
+title: "How I Cut Development Set Up Time from 15 Minutes to 30 Seconds"
 date: "2025-07-17T01:31:06+00:00"
 draft: false
 description: "Stop wasting precious coding time on environment setup. This battle-tested devcontainer configuration gets parent developers from git clone to productive coding in 30 seconds, with all the AI tools and automation you need for fragmented-time development."
-categories: ["productivity", "development-environment"]
-tags: ["devcontainer", "vscode", "docker", "parent-developer", "automation", "ai-tools", "productivity", "development-setup"]
+categories: ["Developer Productivity"]
+tags: ["parent-developers", "productivity", "development-environment", "ai-tools", "automation"]
+aliases:
+  - /stop-losing-coding-time-to-environment-set-up-the-parent-developers-devcontainer/
 ---
 
 It’s 9:15 PM. You’ve got 45 minutes before you collapse from exhaustion. You fire up your laptop, clone that project you were working on last week, and… wait. Which Node version was this? Did you install the right linter? Where’s that extension you rely on for auto-formatting?

@@ -74,7 +74,7 @@ newpost() {
 title: "$1"
 date: "$(date -Iseconds)"
 draft: true
-subtitle: ""
+description: ""
 categories: []
 tags: []
 ---

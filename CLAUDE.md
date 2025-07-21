@@ -126,3 +126,16 @@ The author is pioneering a completely new space: using AI to make programming ac
 **Avoid:** "Children today are digital natives who should be introduced to programming concepts at an early age."
 
 Use this guide to create content that feels authentically from this unique parent developer perspective, providing real value to people navigating the intersection of family life and software development.
+
+## Automated Publishing Workflow
+
+This Hugo blog uses a Make.com automation that monitors the RSS feed and automatically cross-posts content when new articles are published:
+
+* **RSS monitoring** detects new blog posts
+* **Claude AI enhancement** optimizes content for each platform, adds cover images, and creates engaging social media posts
+* **Dev.to cross-posting** with proper formatting and tags
+* **X thread generation** queued in Buffer for scheduled posting
+
+The workflow uses Claude Sonnet 4 to transform the original blog content into platform-specific formats while maintaining the authentic voice and technical accuracy. This automation saves 30-60 minutes per post and ensures consistent cross-platform presence.
+
+Blueprint available: [Content Workflow Make Scenario](content/posts/2025-07-29-how-i-automate-family-life-to-steal-back-30-minutes-of-coding-time-per-week/content-workflow.blueprint.json)

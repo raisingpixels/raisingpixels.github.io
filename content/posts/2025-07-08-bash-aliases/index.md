@@ -1,10 +1,12 @@
 ---
-title: "Bash Aliases for Sleep-Deprived Parent Developers"
+title: "60 Free Bash Aliases That Save Parent Developers 20% More Coding Time"
 date: "2025-07-08T05:42:27-05:00"
 draft: false
 description: "CLI productivity with terminal shortcuts that work even when your brain is mostly Goldfish Crackers."
-categories: ["Parenting with Systems", "Developer Productivity"]
-tags: ["bash", "aliases", "productivity", "cli", "automation", "git"]
+categories: ["Parenting with Systems Thinking", "Developer Productivity"]
+tags: ["parent-developers", "productivity", "cli", "automation", "workflow"]
+aliases:
+  - /bash-aliases-for-sleep-deprived-parent-developers/
 ---
 
 It's 2:30 PM on a Tuesday. You've been awake since 4:32 AM (thanks, kiddo), you've just figured out the production bug, and your toddler is stirring from their nap. Your brain is running on coffee fumes and you have exactly 47 seconds to push a fix.

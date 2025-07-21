@@ -167,7 +167,8 @@
     }
   },
   "containerEnv": {
-    "GIT_EDITOR": "code --wait"
+    "GIT_EDITOR": "code --wait",
+    "CLAUDE_CONFIG_DIR": "/workspaces/.claude"
   },
   "postCreateCommand": "npm install -g @anthropic-ai/claude-code && git config --global user.email 'hello@raisingpixels.dev' && git config --global user.name 'Mama' && [ -f package.json ] && npm install || true && hugo version",
   "remoteUser": "node",
@@ -180,6 +181,7 @@
   },
   "mounts": [
     "source=${localWorkspaceFolder}/.devcontainer/bashrc,target=/home/node/.bashrc,type=bind",
-    "source=parentdev-bashhistory,target=/home/node/.bash_history,type=volume"
+    "source=parentdev-bashhistory,target=/home/node/.bash_history,type=volume",
+    "source=${localWorkspaceFolder}/.claude,target=/workspaces/.claude,type=bind"
   ]
 }

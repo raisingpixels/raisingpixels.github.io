@@ -1,10 +1,13 @@
 ---
-title: "Quick Context Switching: CLI Tools for Parents Who Code in 15-Minute Windows"
+title: "2 Free Tools That Solve the Biggest Problem for Parent
+  Developers"
 date: "2025-07-12T03:12:36-05:00"
 draft: false
 description: "Your aliases save keystrokes, but they can't remember what you were building or why. Here are the two tools that actually made fragmented coding sessions feel manageable."
-categories: ["Parenting with Systems", "Developer Productivity"]
-tags: ["cli", "productivity", "context-switching", "tmux", "ai-tools", "workflow"]
+categories: ["Parenting with Systems Thinking", "Developer Productivity"]
+tags: ["parent-developers", "productivity", "cli", "ai-tools", "workflow"]
+aliases:
+  - /quick-context-switching-cli-tools-for-parents-who-code-in-15-minute-windows/
 ---
 
 ## The Six-Day Gap

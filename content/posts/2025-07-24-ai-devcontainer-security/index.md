@@ -1,10 +1,10 @@
 ---
 title: "The AWS Bill That Wasn’t Yours: Why Parent Developers Need AI Security (And How Containers Help)"
-date: "2025-07-22T18:41:04+00:00"
-draft: true
-subtitle: ""
-categories: []
-tags: []
+date: "2025-07-23T18:41:04+00:00"
+draft: false
+description: "How parent developers can protect themselves from AI security threats using container-based isolation—because you can't afford mysterious AWS bills or compromised credentials when you're already coding on borrowed time."
+categories: ["AI-Assisted Learning & Creation", "Developer Productivity"]
+tags: ["parent-developers", "ai-tools", "automation", "development-environment", "systems-thinking"]
 ---
 
 It’s 11:47 PM and your deployment is broken. Your kid finally went back to sleep after the third trip to their room, and you have maybe 30 minutes before you’re too exhausted to think straight. You need to debug this API integration, and someone on Stack Overflow mentioned this MCP server that can help analyze API responses.

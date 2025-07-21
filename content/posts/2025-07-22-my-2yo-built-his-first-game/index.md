@@ -1,11 +1,10 @@
 ---
-title: "Teaching My Toddler to Code: Building Browser Games with AI"
+title: "My 2-Year-Old Built His First Video Game in 8 Minutes (Here's How)"
 date: "2025-07-21T05:38:16-05:00"
 draft: false
 description: "How a 2-year-old used VSCode and Cline to create a browser game with nothing but natural language—and what it taught us about the future of coding education."
-categories: ["Early Childhood Tech", "AI-Assisted Learning"]
-tags:
-  ["toddler", "ai-tools", "game-development", "cline", "vscode", "parenting"]
+categories: ["AI-Assisted Learning & Creation"]
+tags: ["early-childhood-tech", "ai-tools", "parent-developers", "systems-thinking", "workflow"]
 ---
 
 My almost-3-year-old has been having a blast with [GCompris](https://gcompris.net/) educational games and we recently showed him how to make simple sprites move around in Scratch. One day, he announced that he wanted to “make a red car game.”
