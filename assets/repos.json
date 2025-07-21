@@ -3,12 +3,36 @@
     "name": "raisingpixels.github.io",
     "description": "The raisingpixels.dev blog, where parenting and programming meet AI.",
     "url": "https://github.com/raisingpixels/raisingpixels.github.io",
-    "updatedAt": "2025-07-18T01:43:56Z",
+    "updatedAt": "2025-07-20T01:50:35Z",
     "stargazerCount": 1,
     "forkCount": 0,
     "isArchived": false,
     "isTemplate": true,
     "language": "CSS",
+    "fork": false
+  },
+  {
+    "name": "nodejs-express-devcontainer",
+    "description": "A VSCode devcontainer optimized for Node.js and Express project development. Helps you use AI tooling safely!",
+    "url": "https://github.com/raisingpixels/nodejs-express-devcontainer",
+    "updatedAt": "2025-07-19T23:03:12Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "isArchived": false,
+    "isTemplate": false,
+    "language": null,
+    "fork": false
+  },
+  {
+    "name": "react-typescript-tailwind-devcontainer",
+    "description": "A VSCode devcontainer set up for securely building web apps with AI.",
+    "url": "https://github.com/raisingpixels/react-typescript-tailwind-devcontainer",
+    "updatedAt": "2025-07-19T22:56:55Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "isArchived": false,
+    "isTemplate": false,
+    "language": null,
     "fork": false
   },
   {
