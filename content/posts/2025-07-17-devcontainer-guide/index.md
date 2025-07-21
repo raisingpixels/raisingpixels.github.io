@@ -2,7 +2,7 @@
 title: "How I Cut Development Set Up Time from 15 Minutes to 30 Seconds"
 date: "2025-07-17T01:31:06+00:00"
 draft: false
-description: "Stop wasting precious coding time on environment setup. This battle-tested devcontainer configuration gets parent developers from git clone to productive coding in 30 seconds, with all the AI tools and automation you need for fragmented-time development."
+description: "Stop wasting precious coding time on environment setup. This battle-tested dev container configuration gets parent developers from git clone to productive coding in 30 seconds, with all the AI tools and automation you need for fragmented-time development."
 categories: ["Developer Productivity"]
 tags: ["parent-developers", "productivity", "development-environment", "ai-tools", "automation"]
 aliases:
@@ -13,9 +13,9 @@ It’s 9:15 PM. You’ve got 45 minutes before you collapse from exhaustion. You
 
 By the time you’ve recreated your development environment, you have maybe 15 minutes left to actually code.
 
-This is why devcontainers are a game-changer for parent developers. Set up your perfect environment once, and it works the same way whether you’re coding on your main laptop, the family computer, or that old desktop you pulled out of storage.
+This is why dev containers are a game-changer for parent developers. Set up your perfect environment once, and it works the same way whether you’re coding on your main laptop, the family computer, or that old desktop you pulled out of storage.
 
-## Why Devcontainers Are Perfect for Parent Developers
+## Why Dev Containers Are Perfect for Parent Developers
 
 **Consistency Across Chaos**: Tried installing that new build tool and broke your Node setup? No problem. Your unbroken environment lives in the container, ready to go again.
 
@@ -27,7 +27,7 @@ This is why devcontainers are a game-changer for parent developers. Set up your 
 
 **Works Everywhere**: This setup works identically whether you’re running locally (with Docker + Dev Containers extension) or in GitHub Codespaces. Codespaces even lets you code on your phone! Perfect for when you’re at the playground and suddenly figure out the solution to yesterday’s bug.
 
-## The Essential Parent Developer Devcontainer
+## The Essential Parent Developer Dev Container
 
 Here’s my battle-tested `.devcontainer/devcontainer.json` that I use across all my projects. Don’t forget to update your name and email in the `postCreateCommand` if you’re stealing this:
 
@@ -216,21 +216,21 @@ Here’s my battle-tested `.devcontainer/devcontainer.json` that I use across al
 
 **Note**: This set up includes auto dark mode using VSCode’s native `window.autoDetectColorScheme` setting, so your theme will automatically switch between “Quiet Light” (day) and “Monokai” (night) based on your system’s appearance. You may still need to manually select your preferred theme initially from the Command Palette (`Cmd+Shift+P` on Mac or `Ctrl+Shift+P` on Windows/Linux → “Preferences: Color Theme”).
 
-## Setting Up Your First Devcontainer
+## Setting Up Your First Dev Container
 
 1. **Install the Dev Containers extension** in VSCode (or select “Yes” in the popup when you create a `.devcontainer/devcontainer.json` file)
-2. **Create the folder structure**:
-
+1. **Create the folder structure**:
+   
    ```
    your-project/
    ├── .devcontainer/
    │   └── devcontainer.json
    └── your-code/
    ```
-3. **Copy the configuration above** into `devcontainer.json`
-4. **Open in container**: `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux) → “Dev Containers: Reopen in Container”
+1. **Copy the configuration above** into `devcontainer.json`
+1. **Open in container**: `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux) → “Dev Containers: Reopen in Container”
 
-You can also clone the ready-to-use [Parent Developer Devcontainer Template](https://github.com/raisingpixels/parent-dev-devcontainer) repository to get started quickly.
+You can also clone the ready-to-use [Parent Developer Dev Container Template](https://github.com/raisingpixels/parent-dev-devcontainer) repository to get started quickly.
 
 For an easy way to set up authentication for GitHub, run `gh auth login` in the container terminal.
 
@@ -338,7 +338,7 @@ Then add this line to your devcontainer.json `mounts` array:
 
 ## The Parent Developer Advantage
 
-Here’s what I’ve learned after using devcontainers for everything:
+Here’s what I’ve learned after using dev containers for everything:
 
 **Setup time went from 10-15 minutes to 30 seconds**. That’s huge when you only have 45 minutes to code.
 
