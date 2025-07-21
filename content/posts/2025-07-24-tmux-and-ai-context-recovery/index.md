@@ -1,7 +1,7 @@
 ---
 title: "2 Free Tools That Solve the Biggest Problem for Parent
   Developers"
-date: "2025-07-12T03:12:36-05:00"
+date: "2025-07-23T03:12:36-05:00"
 draft: false
 description: "Your aliases save keystrokes, but they can't remember what you were building or why. Here are the two tools that actually made fragmented coding sessions feel manageable."
 categories: ["Parenting with Systems Thinking", "Developer Productivity"]

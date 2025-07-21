@@ -1,6 +1,6 @@
 ---
 title: "How Simple Home Automation Gave Me 2 Extra Hours of Coding Time Per Week"
-date: "2025-07-28T12:55:17-05:00"
+date: "2025-08-04T12:55:17-05:00"
 draft: false
 description: "How I reclaimed 2 hours per week for coding by automating home lighting, circadian rhythms, and content publishing—turning 3-minute manual tasks into prompts that generate entire applications."
 categories: ["Parenting with Systems Thinking", "Home + Code Philosophy"]

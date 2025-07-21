@@ -1,6 +1,6 @@
 ---
 title: "The AWS Bill That Wasn’t Yours: Why Parent Developers Need AI Security (And How Containers Help)"
-date: "2025-07-23T18:41:04+00:00"
+date: "2025-07-30T18:41:04+00:00"
 draft: false
 description: "How parent developers can protect themselves from AI security threats using container-based isolation—because you can't afford mysterious AWS bills or compromised credentials when you're already coding on borrowed time."
 categories: ["AI-Assisted Learning & Creation", "Developer Productivity"]

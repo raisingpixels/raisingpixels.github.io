@@ -1,6 +1,6 @@
 ---
 title: "60 Free Bash Aliases That Save Parent Developers 20% More Coding Time"
-date: "2025-07-08T05:42:27-05:00"
+date: "2025-07-16T05:42:27-05:00"
 draft: false
 description: "CLI productivity with terminal shortcuts that work even when your brain is mostly Goldfish Crackers."
 categories: ["Parenting with Systems Thinking", "Developer Productivity"]

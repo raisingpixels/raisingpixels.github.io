@@ -1,6 +1,6 @@
 ---
 title: "How I Cut Development Set Up Time from 15 Minutes to 30 Seconds"
-date: "2025-07-17T01:31:06+00:00"
+date: "2025-07-28T01:31:06+00:00"
 draft: false
 description: "Stop wasting precious coding time on environment setup. This battle-tested dev container configuration gets parent developers from git clone to productive coding in 30 seconds, with all the AI tools and automation you need for fragmented-time development."
 categories: ["Developer Productivity"]
@@ -220,7 +220,7 @@ Here’s my battle-tested `.devcontainer/devcontainer.json` that I use across al
 
 1. **Install the Dev Containers extension** in VSCode (or select “Yes” in the popup when you create a `.devcontainer/devcontainer.json` file)
 1. **Create the folder structure**:
-   
+
    ```
    your-project/
    ├── .devcontainer/
