@@ -7,6 +7,7 @@ categories: ["Parenting with Systems Thinking", "Developer Productivity"]
 tags: ["parent-developers", "productivity", "cli", "automation", "workflow"]
 aliases:
   - /bash-aliases-for-sleep-deprived-parent-developers/
+  - /bash-aliases-that-save-parent-developers-hours-every-week/
 ---
 
 It's 2:30 PM on a Tuesday. You've been awake since 4:32 AM (thanks, kiddo), you've just figured out the production bug, and your toddler is stirring from their nap. Your brain is running on coffee fumes and you have exactly 47 seconds to push a fix.
