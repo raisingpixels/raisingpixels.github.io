@@ -1,9 +1,21 @@
 [
   {
+    "name": "toddler-activity-finder",
+    "description": "100+ activities for toddlers! Filter by materials, benefits, time commitment, and messiness.",
+    "url": "https://github.com/raisingpixels/toddler-activity-finder",
+    "updatedAt": "2025-07-25T22:22:46Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "isArchived": false,
+    "isTemplate": false,
+    "language": "JavaScript",
+    "fork": false
+  },
+  {
     "name": "raisingpixels.github.io",
     "description": "The raisingpixels.dev blog, where parenting and programming meet AI.",
     "url": "https://github.com/raisingpixels/raisingpixels.github.io",
-    "updatedAt": "2025-07-24T01:43:21Z",
+    "updatedAt": "2025-07-25T01:42:58Z",
     "stargazerCount": 1,
     "forkCount": 0,
     "isArchived": false,
@@ -129,18 +141,6 @@
     "isArchived": false,
     "isTemplate": false,
     "language": "HTML",
-    "fork": false
-  },
-  {
-    "name": "toddler-activity-finder",
-    "description": "100+ activities for toddlers! Filter by materials, benefits, time commitment, and messiness.",
-    "url": "https://github.com/raisingpixels/toddler-activity-finder",
-    "updatedAt": "2025-07-01T16:10:04Z",
-    "stargazerCount": 1,
-    "forkCount": 0,
-    "isArchived": false,
-    "isTemplate": false,
-    "language": "JavaScript",
     "fork": false
   },
   {
