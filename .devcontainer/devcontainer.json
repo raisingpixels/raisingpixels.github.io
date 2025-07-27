@@ -1,0 +1,187 @@
+{
+  "name": "Hugo Parent Developer Environment",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // AI Assistants - Your fragmented-time superpowers
+        "anthropic.claude-code",
+        "github.copilot",
+        "github.copilot-chat",
+
+        // Hugo-specific extensions
+        "budparr.language-hugo-vscode",
+        "davidanson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
+        "ms-vscode.vscode-json",
+
+        // Writing and content creation
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "bierner.markdown-preview-github-styles",
+
+        // Git workflow optimization
+        "eamodio.gitlens",
+        "github.vscode-pull-request-github",
+        "ms-vscode.vscode-merge-conflict",
+
+        // Quick navigation and search
+        "christian-kohler.path-intellisense",
+        "ms-vscode.vscode-yaml",
+
+        // Theme and comfort
+        "pkief.material-icon-theme"
+      ],
+      "settings": {
+        // Auto-save everything - the parent developer's safety net
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "git.autofetch": true,
+        "git.enableSmartCommit": true,
+        "git.confirmSync": false,
+
+        // Format on save - one less thing to think about
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "[markdown]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.wordWrap": "on",
+          "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+          }
+        },
+
+        // Visual improvements - because you deserve a nice workspace
+        "editor.fontFamily": "'JetBrainsMono Nerd Font', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+        "editor.fontSize": 14,
+        "editor.fontLigatures": true,
+        "editor.lineHeight": 1.5,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.bracketPairColorization.enabled": true,
+        "editor.guides.bracketPairs": true,
+
+        // Markdown-specific settings
+        "markdown.preview.breaks": true,
+        "markdown.preview.linkify": true,
+        "markdown.preview.typographer": true,
+        "markdown.extension.toc.levels": "1..3",
+        "markdown.extension.preview.autoShowPreviewToSide": false,
+
+        // Better diff viewing for when you return to old work
+        "diffEditor.ignoreTrimWhitespace": false,
+        "diffEditor.renderSideBySide": true,
+
+        // Optimize for quick context switching
+        "workbench.editor.enablePreview": false,
+        "workbench.editor.showTabs": "multiple",
+        "workbench.editor.wrapTabs": true,
+
+        // File management for chaos
+        "explorer.confirmDelete": false,
+        "explorer.confirmDragAndDrop": false,
+        "explorer.sortOrder": "type",
+        "explorer.fileNesting.enabled": true,
+        "explorer.fileNesting.patterns": {
+          "*.md": "*.draft.md",
+          "config.*": "config.*.yml, config.*.yaml, config.*.toml, config.*.json",
+          "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
+        },
+
+        // File handling - keep it tidy
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
+        "files.insertFinalNewline": true,
+        "files.exclude": {
+          "**/.git": true,
+          "**/.DS_Store": true,
+          "**/node_modules": true,
+          "**/public": true,
+          "**/resources": true,
+          "**/.hugo_build.lock": true,
+          "**/.vscode": false
+        },
+        "files.watcherExclude": {
+          "**/.git/objects/**": true,
+          "**/.git/subtree-cache/**": true,
+          "**/node_modules/*/**": true,
+          "**/public/**": true,
+          "**/resources/**": true
+        },
+        "search.exclude": {
+          "**/node_modules": true,
+          "**/public": true,
+          "**/resources": true,
+          "**/.hugo_build.lock": true
+        },
+
+        // Terminal optimization
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.copyOnSelection": true,
+        "terminal.integrated.fontSize": 13,
+        "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', 'JetBrains Mono', Menlo",
+        "terminal.integrated.cursorBlinking": true,
+        "terminal.integrated.cursorStyle": "line",
+        "terminal.integrated.scrollback": 10000,
+
+        // GitHub integration
+        "github.copilot.enable": {
+          "*": true,
+          "plaintext": false,
+          "markdown": true
+        },
+
+        // Theme settings for late-night writing (with auto dark mode)
+        "window.autoDetectColorScheme": true,
+        "workbench.colorTheme": "Monokai",
+        "workbench.iconTheme": "material-icon-theme",
+        "workbench.preferredDarkColorTheme": "Monokai",
+        "workbench.preferredLightColorTheme": "Quiet Light",
+
+        // Prettier configuration for markdown
+        "prettier.singleQuote": true,
+        "prettier.semi": true,
+        "prettier.tabWidth": 2,
+        "prettier.proseWrap": "always",
+
+        // Spell checking
+        "cSpell.enabled": true,
+        "cSpell.language": "en",
+        "cSpell.words": [
+          "devcontainer",
+          "hugo",
+          "localhost",
+          "markdown",
+          "raisingpixels",
+          "toml",
+          "yaml"
+        ]
+      }
+    }
+  },
+  "containerEnv": {
+    "GIT_EDITOR": "code --wait",
+    "CLAUDE_CONFIG_DIR": "/workspaces/.claude"
+  },
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code && git config --global user.email 'studio@raisingpixels.dev' && git config --global user.name 'Raising Pixels' && [ -f package.json ] && npm install || true && hugo version",
+  "remoteUser": "node",
+  "forwardPorts": [1313],
+  "portsAttributes": {
+    "1313": {
+      "label": "Hugo Dev Server",
+      "onAutoForward": "notify"
+    }
+  },
+  "mounts": [
+    "source=${localWorkspaceFolder}/.devcontainer/bashrc,target=/home/node/.bashrc,type=bind",
+    "source=parentdev-bashhistory,target=/home/node/.bash_history,type=volume",
+    "source=${localWorkspaceFolder}/.claude,target=/workspaces/.claude,type=bind"
+  ]
+}
