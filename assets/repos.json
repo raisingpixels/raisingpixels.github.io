@@ -3,12 +3,48 @@
     "name": "raisingpixels.github.io",
     "description": "The raisingpixels.dev blog, where parenting and programming meet AI.",
     "url": "https://github.com/raisingpixels/raisingpixels.github.io",
-    "updatedAt": "2025-07-21T18:36:59Z",
+    "updatedAt": "2025-07-27T13:41:20Z",
     "stargazerCount": 1,
     "forkCount": 0,
     "isArchived": false,
     "isTemplate": true,
     "language": "CSS",
+    "fork": false
+  },
+  {
+    "name": "nontoxicgoods",
+    "description": "Family-vetted goods. Avoid toxins, expect high-quality, and support Made in USA companies.",
+    "url": "https://github.com/meimakes/nontoxicgoods",
+    "updatedAt": "2025-07-27T11:41:19Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "isArchived": false,
+    "isTemplate": false,
+    "language": "HTML",
+    "fork": false
+  },
+  {
+    "name": "toddler-activity-finder",
+    "description": "100+ activities for toddlers! Filter by materials, benefits, time commitment, and messiness.",
+    "url": "https://github.com/meimakes/toddler-activity-finder",
+    "updatedAt": "2025-07-27T03:27:23Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "isArchived": false,
+    "isTemplate": false,
+    "language": "JavaScript",
+    "fork": false
+  },
+  {
+    "name": "toddlerdo-lander",
+    "description": "Landing page for ToddlerDo - an iOS app providing instant, curated activity suggestions for toddlers.",
+    "url": "https://github.com/meimakes/toddlerdo-lander",
+    "updatedAt": "2025-07-27T02:45:08Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "isArchived": false,
+    "isTemplate": false,
+    "language": "HTML",
     "fork": false
   },
   {
@@ -108,18 +144,6 @@
     "fork": false
   },
   {
-    "name": "nontoxicgoods",
-    "description": "Family-vetted goods. Avoid toxins, expect high-quality, and support Made in USA companies.",
-    "url": "https://github.com/raisingpixels/nontoxicgoods",
-    "updatedAt": "2025-07-01T22:29:25Z",
-    "stargazerCount": 0,
-    "forkCount": 0,
-    "isArchived": false,
-    "isTemplate": false,
-    "language": "HTML",
-    "fork": false
-  },
-  {
     "name": "shapes",
     "description": "2D and 3D shapes that reveal their names and spin when you click them!",
     "url": "https://github.com/raisingpixels/shapes",
@@ -129,18 +153,6 @@
     "isArchived": false,
     "isTemplate": false,
     "language": "HTML",
-    "fork": false
-  },
-  {
-    "name": "toddler-activity-finder",
-    "description": "100+ activities for toddlers! Filter by materials, benefits, time commitment, and messiness.",
-    "url": "https://github.com/raisingpixels/toddler-activity-finder",
-    "updatedAt": "2025-07-01T16:10:04Z",
-    "stargazerCount": 1,
-    "forkCount": 0,
-    "isArchived": false,
-    "isTemplate": false,
-    "language": "JavaScript",
     "fork": false
   },
   {
