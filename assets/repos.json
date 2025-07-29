@@ -1,14 +1,50 @@
 [
   {
+    "name": "toddler-activity-finder",
+    "description": "100+ activities for toddlers! Filter by materials, benefits, time commitment, and messiness.",
+    "url": "https://github.com/meimakes/toddler-activity-finder",
+    "updatedAt": "2025-07-28T18:21:27Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "isArchived": false,
+    "isTemplate": false,
+    "language": "JavaScript",
+    "fork": false
+  },
+  {
     "name": "nontoxicgoods",
-    "description": "Family-vetted goods. Avoid toxins, expect high-quality, and support Made in USA companies.",
+    "description": "A curated collection of nontoxic products for your home and family.",
     "url": "https://github.com/meimakes/nontoxicgoods",
-    "updatedAt": "2025-07-27T23:47:26Z",
+    "updatedAt": "2025-07-28T16:02:07Z",
     "stargazerCount": 0,
     "forkCount": 0,
     "isArchived": false,
     "isTemplate": false,
     "language": "HTML",
+    "fork": false
+  },
+  {
+    "name": "loficode-hugo-theme",
+    "description": "A cozy, lo-fi inspired Hugo theme. Features ambient sound player, dark/light themes, and a retro aesthetic with modern functionality.",
+    "url": "https://github.com/raisingpixels/loficode-hugo-theme",
+    "updatedAt": "2025-07-28T14:32:46Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "isArchived": false,
+    "isTemplate": false,
+    "language": "CSS",
+    "fork": false
+  },
+  {
+    "name": "raisingpixels.github.io",
+    "description": "The raisingpixels.dev blog, where parenting and programming meet AI.",
+    "url": "https://github.com/raisingpixels/raisingpixels.github.io",
+    "updatedAt": "2025-07-28T01:49:41Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "isArchived": false,
+    "isTemplate": true,
+    "language": "CSS",
     "fork": false
   },
   {
@@ -33,30 +69,6 @@
     "isArchived": false,
     "isTemplate": false,
     "language": "HTML",
-    "fork": false
-  },
-  {
-    "name": "toddler-activity-finder",
-    "description": "100+ activities for toddlers! Filter by materials, benefits, time commitment, and messiness.",
-    "url": "https://github.com/meimakes/toddler-activity-finder",
-    "updatedAt": "2025-07-27T13:50:53Z",
-    "stargazerCount": 1,
-    "forkCount": 0,
-    "isArchived": false,
-    "isTemplate": false,
-    "language": "JavaScript",
-    "fork": false
-  },
-  {
-    "name": "raisingpixels.github.io",
-    "description": "The raisingpixels.dev blog, where parenting and programming meet AI.",
-    "url": "https://github.com/raisingpixels/raisingpixels.github.io",
-    "updatedAt": "2025-07-27T13:41:27Z",
-    "stargazerCount": 1,
-    "forkCount": 0,
-    "isArchived": false,
-    "isTemplate": true,
-    "language": "CSS",
     "fork": false
   },
   {
@@ -118,18 +130,6 @@
     "isTemplate": false,
     "language": "Go",
     "fork": true
-  },
-  {
-    "name": "loficode-hugo-theme",
-    "description": "A cozy, lo-fi inspired Hugo theme. Features ambient sound player, dark/light themes, and a retro aesthetic with modern functionality.",
-    "url": "https://github.com/raisingpixels/loficode-hugo-theme",
-    "updatedAt": "2025-07-04T02:27:01Z",
-    "stargazerCount": 0,
-    "forkCount": 0,
-    "isArchived": false,
-    "isTemplate": false,
-    "language": "CSS",
-    "fork": false
   },
   {
     "name": "hugo-theme-dev-template",
