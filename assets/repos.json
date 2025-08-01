@@ -1,5 +1,29 @@
 [
   {
+    "name": "vintage-web-hugo-theme",
+    "description": "Hugo theme for 1999.",
+    "url": "https://github.com/raisingpixels/vintage-web-hugo-theme",
+    "updatedAt": "2025-07-31T12:47:12Z",
+    "stargazerCount": 8,
+    "forkCount": 0,
+    "isArchived": false,
+    "isTemplate": false,
+    "language": "HTML",
+    "fork": false
+  },
+  {
+    "name": "raisingpixels.github.io",
+    "description": "The raisingpixels.dev blog, where parenting and programming meet AI.",
+    "url": "https://github.com/raisingpixels/raisingpixels.github.io",
+    "updatedAt": "2025-07-31T01:45:01Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "isArchived": false,
+    "isTemplate": true,
+    "language": "CSS",
+    "fork": false
+  },
+  {
     "name": "loficode-hugo-theme",
     "description": "A cozy, lo-fi inspired Hugo theme. Features ambient sound player, dark/light themes, and a retro aesthetic with modern functionality.",
     "url": "https://github.com/raisingpixels/loficode-hugo-theme",
@@ -8,18 +32,6 @@
     "forkCount": 0,
     "isArchived": false,
     "isTemplate": false,
-    "language": "CSS",
-    "fork": false
-  },
-  {
-    "name": "raisingpixels.github.io",
-    "description": "The raisingpixels.dev blog, where parenting and programming meet AI.",
-    "url": "https://github.com/raisingpixels/raisingpixels.github.io",
-    "updatedAt": "2025-07-30T01:45:48Z",
-    "stargazerCount": 1,
-    "forkCount": 0,
-    "isArchived": false,
-    "isTemplate": true,
     "language": "CSS",
     "fork": false
   },
@@ -53,18 +65,6 @@
     "url": "https://github.com/meimakes/toddlerdo-lander",
     "updatedAt": "2025-07-27T18:19:50Z",
     "stargazerCount": 0,
-    "forkCount": 0,
-    "isArchived": false,
-    "isTemplate": false,
-    "language": "HTML",
-    "fork": false
-  },
-  {
-    "name": "vintage-web-hugo-theme",
-    "description": "Hugo theme for 1999.",
-    "url": "https://github.com/raisingpixels/vintage-web-hugo-theme",
-    "updatedAt": "2025-07-27T14:49:06Z",
-    "stargazerCount": 6,
     "forkCount": 0,
     "isArchived": false,
     "isTemplate": false,
