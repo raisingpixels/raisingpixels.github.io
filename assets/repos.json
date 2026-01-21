@@ -1,9 +1,21 @@
 [
   {
+    "name": "loficode-hugo-theme",
+    "description": "A cozy, lo-fi inspired Hugo theme. Features ambient sound player, dark/light themes, and a retro aesthetic with modern functionality.",
+    "url": "https://github.com/raisingpixels/loficode-hugo-theme",
+    "updatedAt": "2026-01-20T23:39:00Z",
+    "stargazerCount": 16,
+    "forkCount": 5,
+    "isArchived": false,
+    "isTemplate": false,
+    "language": "CSS",
+    "fork": false
+  },
+  {
     "name": "raisingpixels.github.io",
     "description": "The raisingpixels.dev blog, where parenting and programming meet AI.",
     "url": "https://github.com/raisingpixels/raisingpixels.github.io",
-    "updatedAt": "2026-01-19T01:48:36Z",
+    "updatedAt": "2026-01-20T01:43:42Z",
     "stargazerCount": 2,
     "forkCount": 0,
     "isArchived": false,
@@ -21,18 +33,6 @@
     "isArchived": false,
     "isTemplate": false,
     "language": "HTML",
-    "fork": false
-  },
-  {
-    "name": "loficode-hugo-theme",
-    "description": "A cozy, lo-fi inspired Hugo theme. Features ambient sound player, dark/light themes, and a retro aesthetic with modern functionality.",
-    "url": "https://github.com/raisingpixels/loficode-hugo-theme",
-    "updatedAt": "2026-01-03T11:29:27Z",
-    "stargazerCount": 15,
-    "forkCount": 5,
-    "isArchived": false,
-    "isTemplate": false,
-    "language": "CSS",
     "fork": false
   },
   {
